@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 18px 24px;
+    width: 80%;
+    border-radius: 51px;
+    margin: 0 auto;
+    transform: translateY(40px);
+}
+.launch-app-btn{
+    padding: 10px 12px;
+    background-color: #61D9FF;
+    border-radius: 54px;
+    gap: 12px;
+    font-family: 'nunito', arial;
+    font-weight: 600;
+    font-size: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+@media only screen and (max-width: 800px) {
+    .header{
+        width: 75%;
+    }
+    .logo img{
+      width: 24px;
+      height: 24px;
+    }
+    .logo-middle{
+        display: flex;
+        align-items: center
+    }
+    .logo-middle img{
+        width: 80px;
+    }
+    .launch-app-btn{
+        font-size: 13px;
+    }
+    
+}

@@ -1,0 +1,58 @@
+.home-container{
+    transform: translateY(60px);
+}
+.main-content .main-title{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 64px;
+    padding-bottom: 10% ;
+    align-items: center;
+    color: #FFFFFF;
+}
+.launch-app-btn{
+    padding: 10px 12px;
+    background-color: #61D9FF;
+    border-radius: 54px;
+    gap: 12px;
+    font-family: 'nunito', arial;
+    font-weight: 600;
+    font-size: 15px;
+}
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.cta-buttons .check-airdrop-btn {
+    padding: 10px 12px;
+    border-color: #61D9FF;
+    background-color: transparent;
+    color: #61D9FF;
+    border-radius: 54px;
+    gap: 12px;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.home-container .description{
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 400;
+    size: 16px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 800px) {
+    .main-content .main-title{
+        font-size: 36px;
+        padding-bottom: 10% ;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .home-container .description{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+    .cta-buttons .check-airdrop-btn{
+        font-size: 13px;
+    }
+}
