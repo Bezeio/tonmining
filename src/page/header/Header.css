@@ -17,6 +17,11 @@ header{
     font-weight: 600;
     font-size: 15px;
 }
+.launch-app-btn:hover{
+    border-color: #61D9FF;
+    background-color: transparent;
+    color: #61D9FF;
+}
 .logo{
     display: flex;
     align-items: center;

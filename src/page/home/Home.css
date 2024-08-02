@@ -33,6 +33,10 @@
     font-weight: 600;
     font-size: 15px;
 }
+.cta-buttons .check-airdrop-btn:hover {
+    background-color: #61D9FF;
+    color: #000000;
+}
 .home-container .description{
     font-family: 'Nunito', Arial, sans-serif;
     font-weight: 400;
