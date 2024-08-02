@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="main-title">
               Don't just mine,
               <br />
-              mineTON!
+              Ton Mining!
             </h1>
 
             <p className="description">
